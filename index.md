@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Homepage"
+title: "Home"
 ---
 
 <figure style="float:right;">
@@ -16,7 +16,7 @@ The best way to contact me is by email.
 
     <dt>Personal Email: </dt>
     <dd> <strong> william.luke@silverknoll.net </strong> </dd>
-    <dd>PGP: <a style="color: blue" href="williamluke.gpg">Stand by...</a></dd>
+    <dd>PGP: <a style="color: blue" href="/williamluke.gpg">DEAE94B2FFDB6EA7</a></dd>
     <p/>
     <dt>University Email:</dt>
     <dd> <strong> william.luke21@tamu.edu </strong> </dd>
@@ -24,4 +24,4 @@ The best way to contact me is by email.
 </dl>
 
 ## Interests
-I enjoy working on software projects with involving networking and multithreading. In my free time I experiment with various projects on Linux distributions. Mostly I try out projects authored by others, but I have been starting to dabble in writing my own projects as my programming ability grows.
+I enjoy working on software projects involving networking and multithreading. In my free time I experiment with various projects on Linux distributions. Mostly I try out projects authored by others, but I have been starting to dabble in writing my own projects as my programming ability grows.
