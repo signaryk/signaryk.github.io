@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <title>Projects // Silver Knoll</title>
+    <meta name="author" content="William Luke"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <style>
+        box {
+            font-family: serif;
+        }
+    </style>
+</head>
+<body style="margin:0 auto;max-width:60em;padding:1em;font-family:monospace;">
+
+<header>
+
+    <h1>Silver Knoll</h1>
+    <p style="font-size:16px">
+        <em>The Personal Website of William Luke</em>
+    </p>
+
+    <p style="font-size:16px">
+        <a style="color: blue" href="oldindex.html">Home</a> | <a style="color: blue" href="resume.pdf">CV</a> | <a style="color: blue" href="projects.html">Projects</a>
+    </p>
+
+</header>
+
+<hr />
+
+<section>
+    <h2>Current Projects</h2>
+    <strong>This Website:</strong> <br/>
+    <box>
+    A home for projects I work on and reports of things things I find interesting. It also contains an online, expanded version of my résumé that contains the current version of the printed document.
+    </box>
+
+    <p/>
+
+    <strong>Distributed Compiling with Distcc:</strong> <br/>
+    <box>
+        Testing the usage of <code>distcc</code> with a small home cluster of aarch64-based computers and x86-based computers with an aarch64 cross-compiler. Testing by compiling and packaging the Linux kernel with patches for the Pinebook Pro with Arch Linux’s <code>makepkg</code>.
+    </box>
+
+    <p/>
+
+    <strong>WireGuard:</strong> <br/>
+    <box>
+        Testing the in-development WireGuard VPN protocol to provide secure, remote access to personal computing resources.
+    </box>
+
+</section>
+
+<section>
+    <h2>Past Projects</h2>
+    <strong>ARM CPU Architecture:</strong> <br/>
+    <box>
+        Studying the ARM CPU architecture through Assembly programming and Verilog behaviour modelling (part of academic coursework). The final result of the laboratory portion of the course produced a single-cycle processor that can execute LEGv8 instructions (a modified ARMv8 instruction set).
+    </box>
+    <p/>
+
+    <strong>Singularity:</strong> <br/>
+    <box>
+        Testing and documenting the usage of the Singularity container platform for researchers as an unprivileged alternative to Docker. The software is able to run Docker containers without requiring root access, the user being part of a group that is able to gain root access, or using a privileged daemon. It maintains the users UID inside the container and does not allow the usage of setuid binaries.
+    </box>
+
+    <p/>
+
+    <strong>Kerberos-Authenticated Printing with CUPS:</strong> <br/>
+    <box>
+        Authenticating for printers belonging to an SMB printer share from Linux workstations with Active Directory user logins.
+    </box>
+</section>
+
+</body>
+</html>
