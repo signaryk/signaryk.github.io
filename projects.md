@@ -5,6 +5,8 @@ permalink: /projects/
 ---
 ## Current Projects
 
+**Arch Linux ARM**: Porting the Arch Linux ARM distribution to the Pinebook Pro platform. Creating Docker images and build scripts for reproducible builds of the root filesystem, kernel, and u-boot.
+
 **This Website**: A home for projects I work on and reports of things things I find interesting. It also contains an online, expanded version of my résumé that contains the current version of the printed document. 
 
 **Distributed Compiling with Distcc**: Testing the usage of `distcc` with a small home cluster of aarch64-based computers and x86-based computers with an aarch64 cross-compiler. Testing by compiling and packaging the Linux kernel with patches for the Pinebook Pro with Arch Linux's `makepkg`. 
