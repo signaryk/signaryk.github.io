@@ -9,8 +9,8 @@ permalink: /about/
 </float>
 My name is William Luke. I am a student in the Department of Computer Science and Engineering at Texas A&M
 University in College Station, Texas pursuing a Bachelor of Science in Computer Engineering. I enjoy studying
-topics pertaining to concurrent programming and computer networking. I am also pursuing a minor in Russian
-language (Здраствуйте!) after living for several years in Kazakhstan. 
+topics pertaining to concurrent programming and computer networking. I'm also greatly interested in exploring
+opearting systems, especially NixOS, OpenBSD, and 9front (a fork on Plan 9 from Bell Labs).
 
 Currently I work as a student Linux System Administrator for the College of Engineering IT group at Texas A&M
 University as a member of the group's Linux team. The team manages over 500 Linux workstations and servers in the 
@@ -18,7 +18,7 @@ College, running CentOS and Ubuntu. My time there is spent assisting users with 
 configuration management with Chef, and researching and developing solutions to improve to improve user's 
 experience with their systems and improve the Linux team's workflow. 
 
-In my free time I enjoy cooking, cartography, and listening to rock music while I tweak my Linux installations.
+In my free time I enjoy cooking, cartography, and exploring news ways to using computers.
 
 # Contact
 The best way to contact me is via email.
