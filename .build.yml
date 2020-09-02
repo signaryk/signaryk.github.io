@@ -1,0 +1,22 @@
+image: alpine/latest
+packages:
+  - rsync
+  - ruby
+sources:
+  - https://git.sr.ht/~signaryk/silverknoll.net
+secrets:
+  - 4812c502-cf3d-492b-9774-ac533b14bf19
+triggers:
+  - action: email
+    condition: always
+    to: William Luke <william.luke@silverknoll.net>
+tasks:
+- jekyll: |
+    gem install jekyll
+- build: |
+    cd silverknoll.net
+    jekyll build
+- upload: |
+    cd silverknoll.net
+    echo "StrictHostKeyChecking=no" >> ~/.ssh/config
+    rsync -rP _site/ deploy@rock.silverknoll.net:/var/www/silverknoll.net
