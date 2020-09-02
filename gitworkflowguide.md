@@ -2,7 +2,7 @@
 layout: resource
 title: Git Workflow Guide
 permalink: /resources/git/
-published: false
+published: true
 ---
 This is a crash-course guide to being productive with Git. This guide assumes you are in a UNIX-like environment
 (including WSL, Git-Bash, and Cygwin on Windows). The `$` symbol at the beginning of command lines denotes your 
